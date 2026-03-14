@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/piTAsFCb)
 # Front-End Challenge 2.0
 
 ## GitHub Classroom Workflow (Required)
@@ -163,24 +164,24 @@ Minimum deployment expectations:
 
 When opening `index.html` locally:
 
-- [ ] CSS loads
-- [ ] Images load
-- [ ] Navigation links work
+- [/] CSS loads
+- [/] Images load
+- [/] Navigation links work
 
 When opening `pages/contact.html` locally:
 
-- [ ] CSS loads from `../css/styles.css`
-- [ ] Links back to Home/About work
+- [/] CSS loads from `../css/styles.css`
+- [/] Links back to Home/About work
 
 Project quality and requirements:
 
-- [ ] Filenames and folders are clean and consistent
-- [ ] Paths are correct from root and nested pages
-- [ ] Site content is personalized
-- [ ] At least 2 sections use Flexbox properties
-- [ ] Commits are atomic and logically grouped
-- [ ] Project is pushed to `main`
-- [ ] Site is deployed to Netlify via GitHub connection
+- [/] Filenames and folders are clean and consistent
+- [/] Paths are correct from root and nested pages
+- [/] Site content is personalized
+- [/] At least 2 sections use Flexbox properties
+- [/] Commits are atomic and logically grouped
+- [/] Project is pushed to `main`
+- [/] Site is deployed to Netlify via GitHub connection
 
 ---
 

@@ -1,0 +1,239 @@
+/*
+  NOTE: This CSS file is intentionally placed in a non-standard folder name.
+  The assessment expects students to reorganize into a clean structure (e.g., css/styles.css)
+  and fix all related paths.
+*/
+
+:root {
+  /*XU COLORS*/
+  --xu-blue: #003366;    
+  --xu-gold: #FFCC00;    
+  --bg-light: #f4f7f9;
+  --card-bg: #ffffff;
+  --text-dark: #002244;
+  --text-muted: #555555;
+  --white: #ffffff;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+main {
+  flex: 1; 
+}
+
+.site-header {
+  background-color: var(--white);
+  border-bottom: 5px solid var(--xu-gold); /* The Xavier Accent */
+  padding: 1rem 0;
+}
+
+/*flexbox for header*/
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .site-header .container {
+    flex-direction: row; /* Horizontal layout for desktop */
+  }
+}
+
+.site-header,
+.site-footer {
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--xu-blue);
+  color: #fff;
+}
+
+.site-footer small {
+  color: var(--xu-gold);
+  font-weight: bold;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.site-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: var(--xu-blue);
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.site-nav a:hover, 
+.site-nav a[aria-current="page"] {
+  background-color: var(--xu-blue);
+  color: var(--xu-gold);
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.hero-image,
+.profile-image {
+  display: block;
+  margin-top: 12px;
+  max-width: 100%;
+  height: auto;
+  border: 1px dashed #aaa;
+  border-radius: 10px;
+}
+
+
+.field-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--border); 
+  border-radius: 8px;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  outline: none; 
+}
+
+
+.field-input:focus {
+  border-color: var(--xu-blue); 
+  outline: 3px solid var(--xu-gold); 
+  outline-offset: 2px; 
+  box-shadow: 0 0 8px rgba(0, 51, 102, 0.2); 
+}
+
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  justify-self: start;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/*portfolio-style homepage layout */
+.hero {
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  gap: 16px;
+  align-items: start;
+}
+
+@media (min-width: 800px) {
+  .hero-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+  }
+}
+
+.hero-kicker {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.hero-title {
+  margin: 0 0 10px;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.hero-text {
+  margin: 0 0 14px;
+  color: var(--muted);
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #fff;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.hero-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px dashed #aaa;
+  border-radius: 10px;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to drop to the next line */
+  gap: 20px;
+}
+
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes the link to the bottom */
+  border-left: 5px solid var(--xu-gold); /* Adds a nice Xavier accent */
+  padding: 15px;
+  background: rgb(109, 121, 233);
+  border-radius: 8px;
+}
+
+.project-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.project-text {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
