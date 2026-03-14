@@ -164,24 +164,24 @@ Minimum deployment expectations:
 
 When opening `index.html` locally:
 
-- [ ] CSS loads
-- [ ] Images load
-- [ ] Navigation links work
+- [/] CSS loads
+- [/] Images load
+- [/] Navigation links work
 
 When opening `pages/contact.html` locally:
 
-- [ ] CSS loads from `../css/styles.css`
-- [ ] Links back to Home/About work
+- [/] CSS loads from `../css/styles.css`
+- [/] Links back to Home/About work
 
 Project quality and requirements:
 
-- [ ] Filenames and folders are clean and consistent
-- [ ] Paths are correct from root and nested pages
-- [ ] Site content is personalized
-- [ ] At least 2 sections use Flexbox properties
-- [ ] Commits are atomic and logically grouped
-- [ ] Project is pushed to `main`
-- [ ] Site is deployed to Netlify via GitHub connection
+- [/] Filenames and folders are clean and consistent
+- [/] Paths are correct from root and nested pages
+- [/] Site content is personalized
+- [/] At least 2 sections use Flexbox properties
+- [/] Commits are atomic and logically grouped
+- [/] Project is pushed to `main`
+- [/] Site is deployed to Netlify via GitHub connection
 
 ---
 
